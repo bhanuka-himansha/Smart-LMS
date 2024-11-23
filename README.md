@@ -1,1 +1,1 @@
-# Smart-LMS
+Co-operate LMS by Zuse Technologies
