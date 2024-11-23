@@ -73,10 +73,10 @@
                         @if ($content->video)
                             <video id="my-video" class="video-js w-full h-[30vh] md:h-[50vh] rounded-lg" controls
                                 preload="auto"
-                                poster="{{ Storage::disk('s3')->temporaryUrl($image, now()->addMinutes(5)) }}"
+                                poster="test"
                                 data-setup="{}">
                                 <source
-                                    src="{{ Storage::disk('s3')->temporaryUrl($content->video, now()->addMinutes(5)) }}"
+                                    src="test"
                                     type="video/mp4" />
                                 <p class="vjs-no-js">
                                     To view this video please enable JavaScript, and consider upgrading to a web browser
@@ -94,7 +94,7 @@
                 <div class="gap-4 mt-8 sm:grid sm:grid-cols-4 sm:mt-12">
                     @foreach ($content->images as $image)
                         <img class="col-span-2 mb-4 sm:mb-0 rounded-lg"
-                            src="{{ Storage::disk('s3')->temporaryUrl($image, now()->addMinutes(5)) }}" alt="">
+                            src="test" alt="">
                     @endforeach
                 </div>
             </div>

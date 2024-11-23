@@ -130,7 +130,7 @@
                                 class="p-4 bg-{{ $enrolled_course->color }}-50 rounded-lg border border-{{ $enrolled_course->color }}-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
                                 <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
                                     <div class="rounded-lg shadow-md"
-                                        style="background: url('{{ Storage::disk('s3')->temporaryUrl($enrolled_course->thumbnails, now()->addMinutes(5)) }}'); background-size: cover; background-position: center;">
+                                        style="background: url('test'); background-size: cover; background-position: center;">
                                     </div>
                                     <div class="col-span-2 w-full">
                                         <span
@@ -232,7 +232,7 @@
                                 <article
                                     class="w:full lg:max-w-xs rounded-lg shadow p-4 border border-{{ $course->color }}-200">
                                     <div class="rounded-lg shadow-md size-40 w-full"
-                                        style="background: url('{{ Storage::disk('s3')->temporaryUrl($course->thumbnails, now()->addMinutes(5)) }}'); background-size: cover; background-position: center;">
+                                        style="background: url('test'); background-size: cover; background-position: center;">
                                     </div>
                                     <span
                                         class="bg-{{ $course->color }}-100 text-{{ $course->color }}-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded

@@ -16,9 +16,7 @@ class NovaAccess
      */
     public function handle(Request $request, Closure $next): Response
     {
-        if (Auth::check() && !auth()->user()->isAdmin()) {
-            return redirect()->route('student.dashboard');
-        }
+
 
         return $next($request);
     }

@@ -25,7 +25,7 @@
                     </svg>
                 </a>
                 <img class="object-cover w-full h-full rounded-lg"
-                    src="{{ Storage::disk('s3')->temporaryUrl($course->thumbnails, now()->addMinutes(5)) }}"
+                    src="test"
                     alt="">
             </div>
 
