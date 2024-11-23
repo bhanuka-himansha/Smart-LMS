@@ -87,16 +87,8 @@
     "prefer-stable": true,
     "repositories": [
         {
-            "type": "composer",
-            "url": "https://nova.laravel.com"
-        },
-        {
             "type": "path",
-            "url": "./nova-components/CanvasField"
-        },
-        {
-            "type": "path",
-            "url": "./nova-components/Fabric"
+            "url": "./nova"
         }
     ]
 }
